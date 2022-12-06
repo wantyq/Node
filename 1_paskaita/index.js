@@ -1,3 +1,3 @@
 const casual = require("casual");
 
-console.log(`${casual.name_suffix} ${casual.first_name} ${casual.last_name}`);
+console.log(`${casual.name_prefix} ${casual.first_name} ${casual.last_name}`);
