@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Memberships/front/users.css">
+    <script src="https://kit.fontawesome.com/ffb9e9f709.js" crossorigin="anonymous"></script>
+    <script defer src="/Memberships/front/users.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="memberships.html"
+                    id="membershipsPage">Memberships</a></li>
+            <li><a href="users.html" id="userPage">Users</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <div class="header">
+                <h1>User Management</h1>
+                <button class="add"><span>+ New User</button>
+            </div>
+        </header>
+        <p>Sorting By Name: <span id="order"><span id="changeOrder"></span> <i class="fa-solid fa-up-down"></i></span></p>
+        <section id="users"></section>
+    </main>
+</body>
+</html>

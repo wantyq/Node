@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+    margin: 0px;
+
+    nav {
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: white;
+        width: 100%;
+
+        ul {
+            display: flex;
+            gap: 70px;
+            list-style-type: none;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    main {
+        padding: 30px;
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 20px;
+            padding-bottom: 20px;
+    
+            button {
+                border: none;
+                background-color: rgb(132, 117, 250);
+                color: white;
+                height: 40px;
+                border-radius: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    
+        .memberships {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+    
+            .block {
+                background-color: white;
+                border: 1px solid rgb(245, 245, 245);
+                flex: 0 0 30%;
+    
+                .topSide {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+    
+                    .title {
+                        font-weight: 600;
+                        margin-bottom: 0px;
+                    }
+                }
+    
+                .bottomSide {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding: 15px;
+                    border: 1px solid rgb(245, 245, 245);
+    
+                    button {
+                        color: rgb(248, 108, 108);
+                        border: none;
+                        background-color: rgb(251, 194, 194);
+                        padding: 8px;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

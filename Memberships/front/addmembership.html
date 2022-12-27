@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Memberships/front/addmembership.css">
+    <script defer src="/Memberships/front/addmembership.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="memberships.html"
+                    id="membershipsPage">Memberships</a></li>
+            <li><a href="users.html" id="userPage">Users</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h1>Create Membership</h1>
+        </header>
+        <section class="sectionForm">
+            <form>
+                    <div class="row first">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="row second">
+                        <label for="price"> Membership Price</label>
+                        <input type="text" name="price" id="price" placeholder="Membership Price">
+                    </div>
+                    <div class="row third">
+                        <label for="description">Description</label>
+                        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="buttons">
+                        <button>Cancel</button>
+                        <button type="submit">Add Membership</button>
+                    </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
