@@ -1,2 +1,0 @@
-PORT = 3000
-URI = mongodb+srv://admin:admin@cafe3.7ud26qb.mongodb.net/?retryWrites=true&w=majority
