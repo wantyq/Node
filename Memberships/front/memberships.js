@@ -22,7 +22,7 @@ const draw = (data) => {
 
         const name = document.createElement(`p`);
         name.setAttribute(`class`, `title`);
-        name.textContent = `${service.price} ${service.name}`;
+        name.textContent = `$${service.price} ${service.name}`;
 
         const description = document.createElement(`p`);
         description.setAttribute(`class`, `description`);

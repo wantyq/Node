@@ -79,7 +79,7 @@ app.post("/users", async (req, res) => {
     await con.close();
     res.send(data);
   } catch (error) {
-    res.status(500).send(error);
+    res.status(500).send({error: "We couldnt find any data"});
   }
 });
 
